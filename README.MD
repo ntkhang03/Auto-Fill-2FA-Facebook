@@ -1,5 +1,10 @@
 <h1 align="center"><img src="./images/icon512.png" width="22px"> Auto Fill 2FA for Facebook</h1>
 
+<p align="center">
+  <img alt="visitors" src="https://visitor-badge.laobi.icu/badge?style=flat-square&page_id=ntkhang3.Auto-Fill-2FA-Facebook">
+  <img alt="size" src="https://img.shields.io/badge/license-MIT-green?style=flat-square&color=brightgreen">
+</p>
+
 ## Description
 
 **Auto Fill 2FA for Facebook** is a Chrome extension designed to automatically retrieve and fill in 2FA codes for Facebook when you type the key into the "approvals_code" input field. This extension simplifies the process of entering 2FA codes, making it more convenient for users.
