@@ -1,0 +1,44 @@
+{
+	"manifest_version": 2,
+	"name": "Auto Fill 2FA for Facebook",
+	"version": "1.0",
+	"author": "NTKhang",
+	"description": "Extension to automatically get and fill in 2FA codes for Facebook when you type key in the \"approvals_code\"",
+	"permissions": [
+		"activeTab",
+		"storage"
+	],
+	"browser_action": {
+		"default_icon": {
+			"16": "images/icon16.png",
+			"32": "images/icon32.png",
+			"48": "images/icon48.png",
+			"64": "images/icon64.png",
+			"128": "images/icon128.png",
+			"256": "images/icon256.png"
+		},
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "images/icon16.png",
+		"32": "images/icon32.png",
+		"48": "images/icon48.png",
+		"64": "images/icon64.png",
+		"128": "images/icon128.png",
+		"256": "images/icon256.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.facebook.com/*",
+				"https://m.facebook.com/*",
+				"https://facebook.com/*",
+				"https://mbasic.facebook.com/*"
+			],
+			"js": [
+				"totp.js",
+				"content.js"
+			]
+		}
+	]
+}
