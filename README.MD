@@ -46,7 +46,7 @@
 
 ## Troubleshooting
 
-If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/ntkhang03/Auto-Fill-2FA-for-Facebook/issues).
+If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/ntkhang03/Auto-Fill-2FA-Facebook/issues).
 
 ## License
 
