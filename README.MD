@@ -45,9 +45,10 @@
 
 - The extension injects scripts into Facebook pages (`https://www.facebook.com/*`, `https://m.facebook.com/*`, `https://facebook.com/*`, `https://mbasic.facebook.com/*`) to monitor and modify the 2FA input field.
 
-## Version
+## Releases
 
-- 1.0
+- [Click here](https://github.com/ntkhang03/Auto-Fill-2FA-Facebook/releases) to view the latest releases.
+
 
 ## Troubleshooting
 
