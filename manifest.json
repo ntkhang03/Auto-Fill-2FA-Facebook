@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Auto Fill 2FA for Facebook",
-	"version": "1.0",
+	"version": "1.1",
 	"author": "NTKhang",
 	"description": "Extension to automatically get and fill in 2FA codes for Facebook when you type key in the \"approvals_code\"",
 	"permissions": [
